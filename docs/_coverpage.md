@@ -1,12 +1,4 @@
-![logo](https://docsify.js.org/_media/icon.svg)
+# docsify website sample <small>0.0.1</small>
 
-# MJ_Mall
-
-> 使用当前最主流Java技术栈，前后端分离的商城系统
-
-* 前端框架：vue-cli、vue-router、vuex、axios
-* 后端框架：Springboot、springcloud alibaba、mybaits
-* 中间件：Mysql、RabbitMQ、Redis、Mongodb、Elasticsearch
-
-[GitHub](https://github.com/shelimingming/MJ_Mall.git)
-[Get Started](#quick-start)
+<a href="https://github.com/lexmin0412/docsify-website-sample">Github</a>
+<a href="#README">Get Started</a>
