@@ -37,6 +37,10 @@
         nameLink: "#/README", // 点击文档标题后的跳转地址
         repo: "https://github.com/huangyulie/MirokuBlogs", // 有repo属性则右上角会展示github图标，点击可进入
         loadSidebar: true, // 加载侧边栏
+        alias: {
+          '/.*/_sidebar.md': '/_sidebar.md',
+          '/.*/_navbar.md': '/_navbar.md'
+        },
         externalLinkTarget: "_blank", // 外部链接的打开方式，默认_blank
         cornerExternalLinkTarget: "_blank", // 右上角链接的打开方式。默认为 _blank
         routerMode: "hash", // 路由方式 默认hash
