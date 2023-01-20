@@ -18,7 +18,7 @@
     * 阿里
         * [第一遍](md/room/HTML/01)
 * 个人博客
-    * [第一遍](md/blog/01)
+    * [git版本控制工具详解](md/blog/01)
 * 个人感想
     * [diyibian](md/thoughts/01)
 
