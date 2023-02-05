@@ -1,6 +1,6 @@
 * 前端八股
-  * [HTML](md/room/HTML/01)
-  * [CSS](md/room/CSS/01.md)
+  * [HTML](md/room/HTML/main)
+  * [CSS](md/room/CSS/01)
   * [JavaScript](md/room/JavaScript/01)
   * [React](md/room/React/01)
 * 前端面经
