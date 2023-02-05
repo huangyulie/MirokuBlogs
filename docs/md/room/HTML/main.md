@@ -1,3 +1,5 @@
+# HTML
+
 [01.什么是HTML5，以及和HTML的区别是什么？](md/room/HTML/01)
 
 [02.什么是渐进增强和优雅降级？](md/room/HTML/02)
@@ -29,6 +31,18 @@
 [15.前端跨页面通信，你知道哪些方法？](md/room/HTML/15)
 
 [16.跨域时怎么处理 cookie？](md/room/HTML/16)
+
+[17.DNS 预解析是什么？怎么实现](md/room/HTML/17)
+
+[18.HTML5 有哪些 drag 相关的 API ？](md/room/HTML/18)
+
+[19.浏览器乱码的原因是什么？如何解决？](md/room/HTML/19)
+
+[20.Canvas和SVG有什么区别？](md/room/HTML/20)
+
+[21.title与h1的区别、b与strong的区别、i与em的区别？](md/room/HTML/21)
+
+[22.浏览器是如何对 HTML5 的离线储存资源进行管理和加载？](md/room/HTML/22)
 
 
 
