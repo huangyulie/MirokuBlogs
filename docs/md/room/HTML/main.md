@@ -44,6 +44,22 @@
 
 [22.浏览器是如何对 HTML5 的离线储存资源进行管理和加载？](md/room/HTML/22)
 
+[23.HTML5的离线储存怎么使用，它的工作原理是什么](md/room/HTML/23)
+
+[24.说说对 web worker 的了解](md/room/HTML/24)
+
+[25.img的srcset属性的作⽤？](md/room/HTML/25)
+
+[26.label标签有什么用？](md/room/HTML/26)
+
+[27.js和css是如何影响DOM树构建的？](md/room/HTML/27)
+
+[28.CSSOM树和DOM树是同时解析的吗？](md/room/HTML/28)
+
+[29.如何实现浏览器内多个标签页之间的通信？](md/room/HTML/29)
+
+[30.说说你对以下几个页面生命周期事件的理解：DOMContentLoaded，load，beforeunload，unload](md/room/HTML/30)
+
 
 
 
