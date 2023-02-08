@@ -60,6 +60,8 @@
 
 [30.说说你对以下几个页面生命周期事件的理解：DOMContentLoaded，load，beforeunload，unload](md/room/HTML/30)
 
+[31.使用input标签上传图片时，怎样触发默认拍照功能？](md/room/HTML/31)
+
 
 
 
