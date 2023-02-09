@@ -13,21 +13,14 @@
     <!-- vue主题样式 -->
     <link
       rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
-    />
-    <!-- 暗黑主题插件样式 -->
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
-      title="docsify-darklight-theme"
-      type="text/css"
+      href="./resource/vue.css"
     />
   </head>
 
   <body>
     <div id="app">加载中......</div>
     <!-- 在github上编辑插件 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+    <script src="./resource/docsify-edit-on.js"></script>
     <script>
       window.$docsify = {
         subMaxLevel: 0,
@@ -69,17 +62,6 @@
           crossChapter: true,
         },
         plugins: [
-          EditOnGithubPlugin.create(
-            "https://github.com/lexmin0412/docsify-website-sample/blob/master/docs/",
-            null,
-            function (file) {
-              if (file.indexOf("en") === -1) {
-                return "在 GitHub 上编辑";
-              } else {
-                return "Edit on Github";
-              }
-            }
-          ),
         ],
         themeColor: "#42b983", // 暗黑模式主题色
         darklightTheme: {
@@ -139,4 +121,5 @@
   <!-- 阅读进度条插件 -->
   <script src="./resource/docsify-darklight-theme.js"></script>
   <!-- 暗黑主题切换插件 -->
+  <script src="./resource/sidebar.js"></script>
 </html>
