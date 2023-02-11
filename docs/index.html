@@ -15,6 +15,11 @@
       rel="stylesheet"
       href="./resource/vue.css"
     />
+    <!-- 导航栏样式 -->
+    <link
+      rel="stylesheet"
+      href="./resource/nav.css"
+    />
   </head>
 
   <body>
@@ -63,6 +68,11 @@
         },
         plugins: [
         ],
+          toc: {
+          scope: '.markdown-section',
+          headings: 'h1, h2, h3, h4, h5, h6',
+          title: '导航',
+        },
         themeColor: "#42b983", // 暗黑模式主题色
         darklightTheme: {
           siteFont: "PT Sans",
@@ -122,4 +132,6 @@
   <script src="./resource/docsify-darklight-theme.js"></script>
   <!-- 暗黑主题切换插件 -->
   <script src="./resource/sidebar.js"></script>
+  <!-- 导航栏 -->
+  <script src="./resource/nav.js"></script>
 </html>
