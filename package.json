@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@markbattistella/docsify-sidebarfooter": "^4.0.0"
+	}
+}

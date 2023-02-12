@@ -11,19 +11,14 @@
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
     />
     <!-- vue主题样式 -->
-    <link
-      rel="stylesheet"
-      href="./resource/vue.css"
-    />
+    <link rel="stylesheet" href="./resource/vue.css" />
     <!-- 导航栏样式 -->
-    <link
-      rel="stylesheet"
-      href="./resource/nav.css"
-    />
+    <link rel="stylesheet" href="./resource/nav.css" />
   </head>
 
   <body>
     <div id="app">加载中......</div>
+    <footer id="mb-footer"></footer>
     <!-- 在github上编辑插件 -->
     <script src="./resource/docsify-edit-on.js"></script>
     <script>
@@ -37,8 +32,8 @@
         repo: "https://github.com/huangyulie/MirokuBlogs", // 有repo属性则右上角会展示github图标，点击可进入
         loadSidebar: true, // 加载侧边栏
         alias: {
-          '/.*/_sidebar.md': '/_sidebar.md',
-          '/.*/_navbar.md': '/_navbar.md'
+          "/.*/_sidebar.md": "/_sidebar.md",
+          "/.*/_navbar.md": "/_navbar.md",
         },
         externalLinkTarget: "_blank", // 外部链接的打开方式，默认_blank
         cornerExternalLinkTarget: "_blank", // 右上角链接的打开方式。默认为 _blank
@@ -51,7 +46,7 @@
           paths: "auto",
           placeholder: "🔍 搜索",
           noData: "😞 没有结果!",
-          pathNamespaces: ['/'],
+          pathNamespaces: ["/"],
         },
         count: {
           // 字数统计插件配置
@@ -66,18 +61,21 @@
           nextText: "下一章节",
           crossChapter: true,
         },
-        plugins: [
-        ],
-          toc: {
-          scope: '.markdown-section',
-          headings: 'h1, h2, h3, h4, h5, h6',
-          title: '导航',
+        plugins: [],
+        toc: {
+          scope: ".markdown-section",
+          headings: "h1, h2, h3, h4, h5, h6",
+          title: "导航",
         },
         copyCode: {
-        buttonText : '复制',
-        errorText  : '复制失败',
-        successText: '复制成功'
-      },
+          buttonText: "复制",
+          errorText: "复制失败",
+          successText: "复制成功",
+        },
+        // load from _footer.md
+        loadFooter: true,
+        // Or load from _footer.md
+        loadFooter: "_footer.md",
         themeColor: "#42b983", // 暗黑模式主题色
         darklightTheme: {
           siteFont: "PT Sans",
@@ -139,6 +137,6 @@
   <script src="./resource/sidebar.js"></script>
   <!-- 导航栏 -->
   <script src="./resource/nav.js"></script>
-  <!-- 分享 -->
-  <script src="./resource/share.js"></script>
+  <!-- 页脚 -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 </html>

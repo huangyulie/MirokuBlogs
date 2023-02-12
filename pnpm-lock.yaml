@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@markbattistella/docsify-sidebarfooter': ^4.0.0
+
+dependencies:
+  '@markbattistella/docsify-sidebarfooter': 4.0.0
+
+packages:
+
+  /@markbattistella/docsify-sidebarfooter/4.0.0:
+    resolution: {integrity: sha512-1Iw6mPqv4Ko0t/VapWoprx4oo69y9XWz05kNVlf8oSNUOggTZfYjawjx54hVa3fRybMvDPxsk8J09KLDS52IAA==}
+    dev: false
