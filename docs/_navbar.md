@@ -17,7 +17,7 @@
 * 前端工程化
   * [工程化](md/about/01.md)
   * [工具](md/about/01.md)
-  * [跨端](md/about/01.md)
+  * [跨端](md/room/mobile/main)
 
 * 科班知识
   * [计算机基础](md/about/01.md)
