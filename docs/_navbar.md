@@ -3,8 +3,8 @@
   * [CSS](md/room/CSS/main)
   * [JavaScript](md/room/JavaScript/main)
   * [React](md/room/React/main)
-  * [Vue](md/room/vue/main.md)
-  * [ES6](md/room/es6/main.md)
+  * [Vue](md/room/vue/main)
+  * [ES6](md/room/es6/main)
 
 * 前端进阶
   * [NodeJS](md/room/node/main)
