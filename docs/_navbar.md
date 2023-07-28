@@ -24,8 +24,8 @@
   * [计算机网络](md/room/network/main)
 
 * 前端手写
-  * [常见手写题](md/room/write/01.md)
-  * [输出题](md/room/print/main.md)
+  * [常见手写题](md/room/write/main)
+  * [输出题](md/room/print/main)
   * [算法](md/room/arithmetic/main)
   * [智力题](md/room/smart/main)
 
