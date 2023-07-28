@@ -1,33 +1,33 @@
 * 前端八股
   * [HTML](md/room/HTML/main)
   * [CSS](md/room/CSS/main)
-  * [JavaScript](md/room/JavaScript/01)
-  * [React](md/room/React/01)
-  * [Vue](md/room/CSS/01.md)
-  * [ES6](md/about/01.md)
+  * [JavaScript](md/room/JavaScript/main)
+  * [React](md/room/React/main)
+  * [Vue](md/room/vue/main.md)
+  * [ES6](md/room/es6/main.md)
 
 * 前端进阶
-  * [NodeJS](md/about/01.md)
-  * [TypeScript](md/about/01.md)
-  * [性能优化](md/about/01.md)
-  * [前端安全](md/about/01.md)
-  * [小程序](md/about/01.md)
-  * [设计模式](md/about/01.md)
+  * [NodeJS](md/room/node/main)
+  * [TypeScript](md/room/typescript/main)
+  * [性能优化](md/room/optimize/main)
+  * [前端安全](md/room/safe/main)
+  * [小程序](md/room/mini/main)
+  * [设计模式](md/room/mode/main)
 
 * 前端工程化
-  * [工程化](md/about/01.md)
-  * [工具](md/about/01.md)
+  * [工程化](md/room/project/main)
+  * [工具](md/room/tools/main)
   * [跨端](md/room/mobile/main)
 
 * 科班知识
-  * [计算机基础](md/about/01.md)
+  * [计算机基础](md/room/base/main)
   * [计算机网络](md/room/network/main)
 
 * 前端手写
   * [常见手写题](md/room/write/01.md)
-  * [输出题](md/about/01.md)
-  * [算法](md/about/01.md)
-  * [智力题](md/about/01.md)
+  * [输出题](md/room/print/main.md)
+  * [算法](md/room/arithmetic/main)
+  * [智力题](md/room/smart/main)
 
 
 * 前端面经
