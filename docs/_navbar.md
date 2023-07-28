@@ -21,7 +21,7 @@
 
 * 科班知识
   * [计算机基础](md/about/01.md)
-  * [计算机网络](md/about/01.md)
+  * [计算机网络](md/room/network/main)
 
 * 前端手写
   * [常见手写题](md/room/write/01.md)
