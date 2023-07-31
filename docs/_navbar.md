@@ -3,8 +3,8 @@
   * [CSS](md/room/CSS/main)
   * [JavaScript](md/room/JavaScript/main)
   * [React](md/room/React/main)
-  * [Vue](md/room/vue/main.md)
-  * [ES6](md/room/es6/main.md)
+  * [Vue](md/room/vue/main)
+  * [ES6](md/room/es6/main)
 
 * 前端进阶
   * [NodeJS](md/room/node/main)
@@ -31,10 +31,10 @@
 
 
 * 前端面经
-  * [字节跳动](md/interview/bytedance/01)
-  * [百度](md/interview/baidu/01)
+  * [字节跳动](md/interview/bytedance/main)
+  * [百度](md/interview/baidu/main)
   * [滴滴](md/interview/didi/main)
   * [中厂](md/interview/mid/main)
 * [个人博客](md/blog/main)
-* [个人感想](md/thoughts/01)
+* [个人感想](md/thoughts/main)
 * [关于](README)
