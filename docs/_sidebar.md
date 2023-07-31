@@ -132,6 +132,7 @@
 
 * 跨端
     * [01.Jsbridge的原理](md/room/mobile/01)
+    * [02.简单说下你对 Electron 架构的理解](md/room/mobile/02)
 
 * 算法
     * [23.js和css是如何影响DOM树构建的？](md/room/CSS/23)
