@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx docsify serve docs"
+    "start": "npx docsify serve docs",
+    "push": "git.sh"
   },
   "dependencies": {
 		"@markbattistella/docsify-sidebarfooter": "^4.0.0",
