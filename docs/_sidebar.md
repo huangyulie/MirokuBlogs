@@ -116,7 +116,7 @@
     * [02.观察者模式](md/room/write/02)
 
 * 设计模式
-    * [23.js和css是如何影响DOM树构建的？](md/room/CSS/23)
+    * [01.开发的过程中你用到过哪些设计模式？](md/room/mode/01)
 
 * 工程化
     * [23.js和css是如何影响DOM树构建的？](md/room/CSS/23)
