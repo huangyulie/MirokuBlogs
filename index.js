@@ -92,3 +92,65 @@ let obj = {
 //     console.log(k,v);
 // })
 
+const data = [
+    {
+        id: 1,
+        text: '节点1',
+        parentId: 0,
+        children: [
+            {
+                id: 2,
+                text: '节点1_1',
+                parentId: 1,
+                children: [
+                    {
+                        id: 2,
+                        text: '节点1_1',
+                        parentId: 1,
+                        
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 3,
+        text: '节点12',
+        parentId: 0,
+        children: [
+            {
+                id: 2,
+                text: '节点1_1',
+                parentId: 1
+            }
+        ]
+    }
+]
+
+function tree2arr(data){
+    let res = [];
+    let arr = [...data]
+    while(arr.length){
+        let len = arr.length;
+        for(let i = 0; i < len ; ++i){
+            let t = arr.shift();
+            res.push({
+                id:t.id,
+                text:t.text,
+                parentId:t.parentId
+            })
+            t.children && arr.push(...t.children)
+        }
+    }
+    // data.forEach(item=>{
+    //     if(item.children){
+    //         tree2arr(item.children , res);
+    //         delete item.children;
+    //     }
+    //     res.push(item);
+    // })
+
+    return res;
+}
+
+console.log(tree2arr(data));
