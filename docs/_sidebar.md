@@ -103,7 +103,7 @@
     * [23.js和css是如何影响DOM树构建的？](md/room/CSS/23)
 
 * 前端安全
-    * [23.js和css是如何影响DOM树构建的？](md/room/CSS/23)
+    * [01.CSP（Content Security Policy）可以解决什么问题?](md/room/safe/01)
 
 * 小程序
     * [01.说说微信小程序的架构?](md/room/mini/01)
@@ -127,7 +127,7 @@
     * [07.工厂模式](md/room/mode/07)
 
 * 工程化
-    * [23.js和css是如何影响DOM树构建的？](md/room/CSS/23)
+    * [01.说说你对前端工程化的理解](md/room/project/01)
 
 * 工具
     * [23.js和css是如何影响DOM树构建的？](md/room/CSS/23)

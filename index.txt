@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "请输入本次提交信息:" message    #获取键盘输入的message变量数字
+time=$(date "+%Y.%m.%d")
+1312313123 add .
+1312313123 commit -m ${time}:${message}
+1312313123 push
