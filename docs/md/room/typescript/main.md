@@ -1,11 +1,9 @@
 # 常见手写题
 
-[01.发布订阅](md/room/write/01)
+[01.TypeScript中有哪些声明变量的方式？](md/room/typescript/01)
 
-[02.观察者模式](md/room/write/02)
+[02.什么是Typescript的方法重载？](md/room/typescript/02)
 
-[03.JSON2DOM](md/room/write/03)
-
-[04.](md/room/write/04)
+[03.typescript 中的 is 关键字有什么用？](md/room/typescript/03)
 
 

@@ -97,7 +97,9 @@
     * [23.js和css是如何影响DOM树构建的？](md/room/CSS/23)
 
 * TypeScript
-    * [23.js和css是如何影响DOM树构建的？](md/room/CSS/23)
+    * [01.TypeScript中有哪些声明变量的方式？](md/room/typescript/01)
+    * [02.什么是Typescript的方法重载？](md/room/typescript/02)
+    * [03.typescript 中的 is 关键字有什么用？](md/room/typescript/03)
 
 * 性能优化
     * [23.js和css是如何影响DOM树构建的？](md/room/CSS/23)
