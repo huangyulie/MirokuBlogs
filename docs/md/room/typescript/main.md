@@ -6,4 +6,9 @@
 
 [03.typescript 中的 is 关键字有什么用？](md/room/typescript/03)
 
+[04.TypeScript支持的访问修饰符有哪些？](md/room/typescript/04)
+
+
+
+
 
