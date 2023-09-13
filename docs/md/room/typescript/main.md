@@ -8,6 +8,10 @@
 
 [04.TypeScript支持的访问修饰符有哪些？](md/room/typescript/04)
 
+[05.使用TS实现一个判断传入参数是否是数组类型的方法](md/room/typescript/05)
+
+
+
 
 
 

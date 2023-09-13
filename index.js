@@ -1,44 +1,35 @@
-const tree = {
-  value: 1,
-  left: {
-    value: 2,
-    right: {  left: {
-        value: 2,
-        right: {  left: {
-            value: 2,
-            right: { value: 5 },
-          } },
-      }},
-  },
-  right: { left: {
-    value: 2,
-    right: { value: 5 },
-  },
-    right: { value: 2,
-        right: { value: 2,
-            right: { value: 2,
-                right: { value: 5 }, },},}, },
-};
-function treePath(root) {
-  const answer = [];
-  let tmp = [];
-  const travel = (r) => {
-    if (r == null) {
-      return;
-    }
-    //@ts-ignore
-    tmp.push(r.value);
-    if (r.left == null && r.right == null) {
-      //@ts-ignore
-      answer.push(tmp);
-      tmp = [tmp[0]];
-      return;
-    }
-    if (r.left) travel(r.left);
-    if (r.right) travel(r.right);
-  };
-  travel(root);
-  //@ts-ignore
-  return answer.map((t) => t.join("->"));
+/**
+ * @file 假设加法是一个异步过程，如何计算多个数组之和？
+ */
+ function sleep(ms ) {
+    return new Promise(r => {
+        setTimeout(() => {
+            r(undefined)
+        }, ms);
+    })
 }
-console.log(treePath(tree)); // [ '1->2->5', '1->3' ]
+
+async function asyncAdd(a  , b  ) {
+    await sleep(1000);
+    return a + b;
+}
+
+async function sum(arr){
+    // 补全这里代码，涉及 arr 中两数求和只能使用 asyncAdd，禁止使用加号
+    // throw new Error('功能待实现');
+    var s = arr[0];
+    for (var i = 1; i < arr.length; i++) {
+      s = await asyncAdd(s, arr[i]);
+    }
+    return s;
+}
+
+console.time('a')
+
+sum([1, 2, 3, 4, 5, 6, 7, 8])
+    .then(v => {
+        console.log(v) // 36
+        console.timeEnd('a') // a: <耗时>
+    })
+
+// export default {}
