@@ -10,6 +10,9 @@
 
 [05.使用TS实现一个判断传入参数是否是数组类型的方法](md/room/typescript/05)
 
+[06.Typescript中泛型是什么？](md/room/typescript/06.md)
+
+
 
 
 
